@@ -1,0 +1,44 @@
+.homepage{
+    height: calc(100vh);
+    overflow-y: auto;
+}
+
+
+h1{
+    margin: 2.5rem 1rem;
+    color: rgba(187, 83, 4, 0.89);
+}
+
+.homepage .hero span{
+    font-size: 1.6rem;
+}
+
+.homepage .hero button{
+    font-size: 1.1rem;
+    height: 36px;
+    margin: 1rem;
+    box-sizing: border-box;
+    padding: 0.4rem 0.7rem;
+    background-color: rgba(0, 0, 0, 0.772);
+    color: white;
+    cursor: pointer;
+}
+
+.homepage .hero input{
+    height: 32px;
+    width: 50px;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 1rem;
+}
+
+.homepage .content{
+    width: 60%;
+    margin: auto;
+    color: rgb(155, 86, 1);
+}
+
+.homepage .content .item{
+    margin: 2rem;
+}
